@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation menu</title>
+    <style>
+        .navbar{
+            background-color: rgb(230, 109, 109);
+            margin: 30px;
+            cursor: pointer;
+            border-radius: 3px;
+            
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 10px;
+           
+        }
+       .navbar li a{
+        text-decoration: none;
+       }
+       .navbar ul a :hover{
+           background-color: brown;
+       }
+        .navbar ul{
+            overflow: auto;
+           
+        }
+        .more{
+            padding: 10px;
+            float: right;
+        }
+        .navbar :hover{
+            background-color: rgb(155, 155, 219);
+        }
+        .more :hover{
+            background-color: brown;
+        }
+        .navbar li a:hover{
+            background-color: rgb(12, 4, 19);
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+        <li ><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">FAQ</a></li>
+        <div class="more">
+            <input type="search" placeholder="search">
+        </div>
+        </ul>
+    </div>
+</body>
+</html>
